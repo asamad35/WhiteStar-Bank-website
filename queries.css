@@ -1,0 +1,100 @@
+/***********
+   Tablets (1300px)
+************/
+@media (max-width: 81.25em) {
+  .header {
+    gap: 5rem;
+  }
+  .nav {
+    padding: 0 4rem;
+  }
+  .header__title {
+    padding: 0 4.8rem;
+    gap: 4.8rem;
+  }
+  .section {
+    padding: 9.6rem 3rem;
+  }
+}
+/***********
+   Tablets (1200px)
+************/
+@media (max-width: 75em) {
+  .header {
+    gap: 5rem;
+  }
+  .header__title {
+    padding: 0 6.8rem;
+    gap: 4.8rem;
+  }
+  h1 {
+    font-size: 4.6rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  .features {
+  }
+}
+/***********
+   Tablets (1100px)
+************/
+@media (max-width: 68.75em) {
+  .header {
+    padding: 0;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .section__header {
+    font-size: 3.2rem;
+  }
+  .section {
+    padding: 6.4rem 0rem;
+  }
+}
+/***********
+   Tablets (1000px)
+************/
+@media (max-width: 62.5em) {
+  html {
+    font-size: 9px;
+  }
+}
+/***********
+   Tablets (880px)
+************/
+@media (max-width: 55em) {
+  .header {
+    gap: 0;
+  }
+  .header__title {
+    padding: 0 4.8rem;
+    gap: 1rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  .header__title {
+    grid-template-columns: 5fr 4fr;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  .section__description {
+    text-align: center;
+  }
+  .section__header {
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .features {
+    margin: 0 6rem;
+  }
+}
+/***********
+   Tablets (780px)
+************/
+@media (max-width: 48.75em) {
+}
